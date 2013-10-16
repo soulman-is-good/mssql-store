@@ -1,0 +1,35 @@
+{
+  "name": "mssql-store",
+  "version": "0.0.1",
+  "description": "Simple MS SQL Server session manager",
+  "keywords": [
+    "express",
+    "connect",
+    "session",
+    "mssql",
+    "tedious"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soulman-is-good/mssql-store.git"
+  },
+  "author": {
+    "name": "Maxim Savin",
+    "email": "soulman.is.good@gmail.com",
+    "url": "http://soulman.kz/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/mssql-store",
+  "dependencies": {
+    "tedious": "*"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readmeFilename": "README.md"
+}

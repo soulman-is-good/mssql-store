@@ -26,7 +26,8 @@
   ],
   "main": "./lib/mssql-store",
   "dependencies": {
-    "tedious": "*"
+    "tedious": "*",
+    "connect": "*"
   },
   "engines": {
     "node": ">= 0.4.0"
